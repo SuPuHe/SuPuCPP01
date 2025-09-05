@@ -1,9 +1,15 @@
 #include "HumanB.hpp"
 #include "Weapon.hpp"
 
-HumanB::HumanB(std::string n) : name(n) {}
+HumanB::HumanB(std::string n) : name(n)
+{
+	std::cout << name << " created without weapon" << std::endl;
+}
 
-HumanB::~HumanB(){}
+HumanB::~HumanB()
+{
+	std::cout << name << " went home" << std::endl;
+}
 
 void HumanB::attack(void)
 {

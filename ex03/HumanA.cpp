@@ -1,8 +1,14 @@
 #include "HumanA.hpp"
 
-HumanA::HumanA(std::string n, Weapon &w) : name(n), weapon(w) {}
+HumanA::HumanA(std::string n, Weapon &w) : name(n), weapon(w)
+{
+	std::cout << name << " created with " << weapon.getType() << std::endl;
+}
 
-HumanA::~HumanA(){}
+HumanA::~HumanA()
+{
+	std::cout << name << " went home" << std::endl;
+}
 
 void HumanA::attack(void)
 {
