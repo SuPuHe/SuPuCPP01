@@ -3,6 +3,7 @@
 
 #include <string>
 #include <new>
+#include <iostream>
 
 class Zombie
 {
