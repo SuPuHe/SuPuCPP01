@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: omizin <omizin@student.42heilbronn.de>     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/09/08 11:26:12 by omizin            #+#    #+#              #
+#    Updated: 2025/09/08 11:26:13 by omizin           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = BraiiiiiiinnnzzzZ
 
 SRCS = main.cpp newZombie.cpp randomChump.cpp Zombie.cpp
