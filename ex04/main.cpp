@@ -6,7 +6,7 @@
 /*   By: omizin <omizin@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/08 11:33:04 by omizin            #+#    #+#             */
-/*   Updated: 2025/09/08 13:12:17 by omizin           ###   ########.fr       */
+/*   Updated: 2025/09/10 12:50:07 by omizin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	main(int argc, char **argv)
 		std::string s1 = argv[2];
 		std::string s2 = argv[3];
 
-		if (s1.empty())
+		if (s1.empty() || filename.empty())
 		{
 			std::cerr << "Line can't be empty" << std::endl;
 			return (1);
